@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact Me</title>
+  </head>
+
+  <body>
+          <header>
+            <a href="index.html">Home</a> |
+            <a href="education.html">Education</a>  |
+            <a href="experience.html">Experience</a> |
+            <a href="projects.html">Projects</a> |
+            <a href="contactme.html">Contact Me</a> |
+        </header>
+        <hr>
+        
+    <form method= "post">
+      <fieldset>
+        <legend>Contact Me</legend>
+        <table>
+            
+          <tr>
+            <td><label for="name">Name:</label></td>
+            <td><input type="text" id="name" name="name" required></td>
+          </tr>
+
+          <tr>
+            <td><label for="email">Email:</label></td>
+            <td><input type="email" id="email" name="email" required></td>
+          </tr>
+
+          <tr>
+            <td><label>Gender:</label></td>
+            <td>
+              <input type="radio" id="male" name="gender" value="male">Male
+              <input type="radio" id="female" name="gender" value="female">Female
+            </td>
+          </tr>
+
+          <tr>
+             <td><label>Services:</label></td>
+              <td>
+                <input type="checkbox" value="htmal">HTML
+                <input type="checkbox" value="css">CSS
+                <input type="checkbox" value="javascript">JavaScript
+                <input type="checkbox" value="python">Python
+              </td>
+          </tr>
+
+          <tr>
+            <td><label for="country">Country:</label></td>
+            <td>
+              <select id="country" name="country" >
+                <option>Select a Country</option>
+                <option>Bangladesh</option>
+                <option>United States</option>
+                <option>Canada</option>
+                <option>United Kingdom</option>
+              </select>
+            </td>
+          </tr>
+
+          <tr>
+            <td><label for="reason">Reason for contact:</label></td>
+            <td>
+              <select id="reason" name="reason">
+                <option>Select a Reason</option>
+                <option>job</option>
+                <option>feedback</option>
+                <option>other</option>
+              </select>
+            </td>
+          </tr>
+
+          <tr>
+            <td>Book Slot:</td>
+            <td><input type="datetime-local"></td>
+          </tr>
+          
+          <tr>
+             <td></td>
+              <td>
+                <br>
+                  <input type="Submit" value="Submit">
+                  <input type="reset" value="Reset">
+              </td>
+          </tr>
+        </table>
+      </fieldset>
+    </form>
+  </body>
+</html>
